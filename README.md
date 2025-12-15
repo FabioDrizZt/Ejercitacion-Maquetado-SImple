@@ -12,8 +12,11 @@ Utilizando el figma de referencia proporcionado, tu tarea será:
 
 1. **Reconocer** cuáles podrían ser los diferentes elementos o etiquetas que corresponden a ese resultado visual.
 2. **Trasladar** aquello que ideaste utilizando etiquetas HTML.
+3. **Personalizar el footer** con tu nombre completo para que tu entrega sea única.
 
 > **Importante:** El proceso de reconocer las diferentes etiquetas o elementos puede ser por fuera del código. Es decir, puedes tomar nota en papel, escribir por encima de la imagen si la imprimes, o simplemente utilizar algún software para poder escribir o dibujar sobre la imagen.
+
+> ⚠️ **Requisito obligatorio:** El footer debe incluir tu nombre completo en el formato "Desarrollado por: [Tu Nombre y Apellido]". Sin esto, el ejercicio no será aprobado.
 
 ## 🔧 Configuración del Repositorio
 
@@ -176,7 +179,9 @@ Antes de escribir código, abre el diseño en Figma y analiza la estructura visu
 #### 3.3 Pie de página (`<footer>`)
 
 - Una línea horizontal (`<hr>`)
-- Un párrafo centrado con el texto "Todos los derechos reservados."
+- Un párrafo centrado con el texto "Desarrollado por: [Tu Nombre y Apellido]"
+
+> ⚠️ **REQUISITO OBLIGATORIO:** Debes reemplazar `[Tu Nombre y Apellido]` con tu nombre completo real. Este es un requisito obligatorio para la aprobación del ejercicio. Sin tu nombre en el footer, el ejercicio no será considerado completo.
 
 ### Paso 4: Etiquetas HTML a utilizar
 
@@ -198,6 +203,17 @@ Asegúrate de utilizar las siguientes etiquetas semánticas:
 - `id="instrucciones"` en la sección de instrucciones
 - `align="center"` en los elementos que necesiten estar centrados
 
+## ⚠️ Requisitos Obligatorios para la Aprobación
+
+Para que tu ejercicio sea considerado completo y pueda ser aprobado, **DEBES** cumplir con los siguientes requisitos obligatorios:
+
+1. ✅ **Footer personalizado:** El footer debe incluir tu nombre completo real en el formato: `"Desarrollado por: [Tu Nombre y Apellido]"`. Reemplaza `[Tu Nombre y Apellido]` con tus datos reales.
+2. ✅ **Estructura HTML semántica:** Debes utilizar las etiquetas semánticas correctas (`<header>`, `<main>`, `<section>`, `<article>`, `<footer>`).
+3. ✅ **Contenido completo:** Todos los textos deben estar copiados correctamente desde Figma.
+4. ✅ **Archivo funcional:** El archivo `index.html` debe abrirse correctamente en un navegador sin errores.
+
+> **Importante:** El ejercicio **NO será aprobado** si falta tu nombre en el footer. Este requisito es fundamental para identificar tu trabajo de manera única.
+
 ## ✅ Checklist de Verificación
 
 Antes de considerar tu ejercicio completo, verifica que:
@@ -209,8 +225,10 @@ Antes de considerar tu ejercicio completo, verifica que:
 - [ ] Los ingredientes están organizados en tres artículos separados
 - [ ] Las instrucciones están en párrafos separados
 - [ ] El footer tiene el texto centrado
+- [ ] **El footer incluye tu nombre completo real** (formato: "Desarrollado por: [Tu Nombre y Apellido]") ⚠️ **OBLIGATORIO**
 - [ ] El documento tiene el atributo `lang="es-AR"`
 - [ ] El título de la página es "El clásico Lemon Pie"
+- [ ] El archivo se abre correctamente en un navegador sin errores
 
 ## 💡 Consejos
 
