@@ -15,6 +15,51 @@ Utilizando la imagen de referencia proporcionada, tu tarea será:
 
 > **Importante:** El proceso de reconocer las diferentes etiquetas o elementos puede ser por fuera del código. Es decir, puedes tomar nota en papel, escribir por encima de la imagen si la imprimes, o simplemente utilizar algún software para poder escribir o dibujar sobre la imagen.
 
+## 🔧 Configuración del Repositorio
+
+Antes de comenzar a trabajar, necesitas obtener una copia del repositorio en tu cuenta de GitHub y luego clonarlo en tu computadora.
+
+### Paso 1: Hacer Fork del Repositorio
+
+1. Ve al repositorio del ejercicio: [Ejercitacion-Maquetado-SImple](https://github.com/FabioDrizZt/Ejercitacion-Maquetado-SImple)
+2. Haz clic en el botón **"Fork"** que se encuentra en la esquina superior derecha de la página
+3. Selecciona tu cuenta de GitHub como destino del fork
+4. Espera a que GitHub cree la copia del repositorio en tu cuenta
+
+> **¿Qué es un Fork?** Un fork es una copia del repositorio original en tu propia cuenta de GitHub. Esto te permite trabajar en tu propia versión sin afectar el repositorio original.
+
+### Paso 2: Clonar el Repositorio
+
+Una vez que tengas el fork en tu cuenta, clónalo en tu computadora:
+
+1. Ve a tu repositorio forkeado (debería estar en `https://github.com/TU-USUARIO/Ejercitacion-Maquetado-SImple`)
+2. Haz clic en el botón verde **"Code"** (Código)
+3. Copia la URL que aparece (puede ser HTTPS o SSH)
+4. Abre tu terminal o Git Bash en la ubicación donde quieres guardar el proyecto
+5. Ejecuta el siguiente comando (reemplaza `TU-USUARIO` con tu nombre de usuario de GitHub):
+
+```bash
+git clone https://github.com/TU-USUARIO/Ejercitacion-Maquetado-SImple.git
+```
+
+6. Navega a la carpeta del proyecto:
+
+```bash
+cd Ejercitacion-Maquetado-SImple
+```
+
+### 💡 Tips para Git (Primera vez)
+
+Si es tu primera vez usando Git y GitHub:
+
+- **Git:** Es un sistema de control de versiones que te permite guardar el historial de cambios en tu código
+- **GitHub:** Es una plataforma web que aloja repositorios Git
+- **Fork:** Crear una copia de un repositorio en tu cuenta
+- **Clone:** Descargar una copia del repositorio a tu computadora local
+- **Terminal/Git Bash:** Herramienta de línea de comandos donde ejecutas los comandos de Git
+
+> **Nota:** Si no tienes Git instalado, puedes descargarlo desde [git-scm.com](https://git-scm.com/). También puedes usar GitHub Desktop como alternativa gráfica.
+
 ## 🎨 Diseño de Referencia en Figma
 
 Para este ejercicio, debes trabajar con el diseño de referencia disponible en Figma. **De aquí debes copiar todo el contenido textual** que irá dentro de las etiquetas HTML.
@@ -67,13 +112,18 @@ Si es tu primera vez usando Figma, aquí tienes algunos consejos útiles:
 
 ## 📁 Estructura del Proyecto
 
-Para comenzar, crea la siguiente estructura de archivos en tu proyecto:
+Una vez que hayas clonado el repositorio, deberías tener la siguiente estructura:
 
 ```
-Ejercitacion Maquetado Simple/
+Ejercitacion-Maquetado-SImple/
 │
-└── index.html
+├── .vscode/
+├── .prettierrc.js
+├── README.md
+└── index.html (debes crear este archivo)
 ```
+
+> **Nota:** El archivo `index.html` no viene incluido en el repositorio. Deberás crearlo siguiendo los pasos del ejercicio.
 
 ## 🚀 Pasos para Completar el Ejercicio
 
