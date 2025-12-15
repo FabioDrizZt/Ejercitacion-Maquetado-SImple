@@ -8,7 +8,7 @@ Una de las principales tareas de un desarrollador Front End es estructurar inter
 
 ## 🎯 Desafío
 
-Utilizando la imagen de referencia proporcionada, tu tarea será:
+Utilizando el figma de referencia proporcionado, tu tarea será:
 
 1. **Reconocer** cuáles podrían ser los diferentes elementos o etiquetas que corresponden a ese resultado visual.
 2. **Trasladar** aquello que ideaste utilizando etiquetas HTML.
