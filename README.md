@@ -24,7 +24,7 @@ Antes de comenzar a trabajar, necesitas obtener una copia del repositorio en tu 
 
 ### Paso 1: Hacer Fork del Repositorio
 
-1. Ve al repositorio del ejercicio: [Ejercitacion-Maquetado-SImple](https://github.com/FabioDrizZt/Ejercitacion-Maquetado-SImple)
+1. Ve al repositorio del ejercicio: [Ejercitacion-Maquetado-SImple](https://github.com/FabioDrizZt/Ejercitacion-Maquetado-SImple/fork)
 2. Haz clic en el botón **"Fork"** que se encuentra en la esquina superior derecha de la página
 3. Selecciona tu cuenta de GitHub como destino del fork
 4. Espera a que GitHub cree la copia del repositorio en tu cuenta
